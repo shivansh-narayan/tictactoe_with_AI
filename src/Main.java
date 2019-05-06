@@ -598,6 +598,7 @@ public class Main {
         }
     }
 
+    //The best move function which calls the minimax function
     static int bestmove(String s,char o)
     {
         int bestval=0,bestindex=0;
